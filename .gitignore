@@ -1,0 +1,19 @@
+# Android SDK path and local credentials
+local.properties
+
+# Signing and secret material
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE and build outputs
+.gradle/
+.idea/
+**/build/
+*.iml
